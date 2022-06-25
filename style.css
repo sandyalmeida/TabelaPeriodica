@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(53, 3, 3);
+}
+
+button{
+    position: sticky;
+    float: right;
+    top: 0px;
+    width: 80px;
+    height:40px;
+    margin: 20px;
+    font-size: 15px;
+    border: 1px solid #5eff0059;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+    color: #f3e1e1;
+    background-color: rgb(29, 27, 27);  
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-family:'Encode Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table{
+    color:white;
+    margin: auto;
+    font-family: 'Amatic SC', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+td {
+
+    border-radius: 5px;
+    width: 60px;    
+}
+
+.principal td:hover{
+    transform: scale(1.5);
+}
+
+.itens-separados td:hover {
+    transform: scale(1.5);
+}
+
+.lacuna {
+    background-color: transparent;    
+    border: none;
+}
+
+.itens-separados{
+    margin-top: 10px;
+}
+
+.num_Atomico {
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.letra_Elemento {
+    display: block;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bolder;
+    padding: 0px 15px 2px 15px;
+}
+
+.massa_Atomica {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 10px 2px 10px;
+}
+
+.n-metais { 
+    background-color:#ad3ea0;
+    
+    
+}
+
+.metais-alcalinos {
+    background-color:lightseagreen;
+    
+}
+
+.metais-terrosos {
+    background-color:rgb(156, 178, 32);
+}
+
+.metais-transicao {
+    background-color:rgb(95, 32, 178);
+}
+
+.halogênios {
+    
+    background-color:rgb(178, 144, 32);
+}
+
+.actinideos {
+    background-color:rgb(185, 128, 136);
+}
+
+.outros-metais {
+    background-color:rgb(20, 180, 41);
+}
+
+.semi-metais {
+    background-color:rgb(178, 32, 64);
+}
+
+.lantanideos {
+    background-color:rgb(65, 60, 60);
+}
+
+.gases-nobres {
+    background-color:rgb(32, 178, 154);
+}
+
+h5{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.legenda{
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+
+.legenda td{
+    width: 60px;
+}
+
+.legenda .lacuna{
+    width: 10px;
+}
+
+.lista-elementos{   
+    align-items: center;
+    width: 800px;
+    margin: 80px auto;
+    color: white;
+}
+
+.lista-elementos th{
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+
+.lista-elementos tr{
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.lista-elementos td{
+    height: 100px;
+    color: white;
+}
+
